@@ -41,6 +41,9 @@ nav a:hover{color:var(--text)}
 .shot{margin:48px auto 0;border:1px solid var(--line);border-radius:12px;overflow:hidden;
   box-shadow:0 30px 80px rgba(0,0,0,.6),0 0 120px rgba(236,79,198,.12)}
 
+.shot.video{max-width:960px}
+.shot.video iframe{display:block;width:100%;aspect-ratio:16/9;border:0;background:#000}
+.shot figcaption{padding:10px 14px;font-size:.85rem;color:var(--dim);border-top:1px solid var(--line);text-align:center}
 .features,.how,.buy,.faq{padding:64px 0;border-top:1px solid var(--line)}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px}
 .grid article{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:22px}
